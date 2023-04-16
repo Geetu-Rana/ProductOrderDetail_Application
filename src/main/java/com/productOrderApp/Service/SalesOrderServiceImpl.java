@@ -30,7 +30,9 @@ public class SalesOrderServiceImpl implements SaleOrderService {
 		}
 		salesOrder.setTimeStamp(LocalDateTime.now());
 		for(OrderDetail o : salesOrder.getOrderDetails()) {
+			
 			Product product = prodServ.findById(o.getProduct().getProductId());
+			
 			if(product.getStockQuantity()<o.getSaleQuantity()) {
 				throw new ProductException("Insufficient Stock for product "+ product.getName());
 			}
