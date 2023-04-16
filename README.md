@@ -9,13 +9,13 @@
 
 ## EndPoints
 ### Products
-<li><b>POST /api/products:</b> Create a new product</li>
-<li><b>PATCH /api/products/{id}{qty}:</b> Update the stock quantity of a product</li>
-<li><b>GET /api/products:</b> List all products</li>
+<li><b>POST /api/products/add:</b> Create a new product</li>
+<li><b>PATCH /api/products/{id}/{qty}:</b> Update the stock quantity of a product</li>
+<li><b>GET /api/products/all:</b> List all products</li>
 
 ### Sales Orders
-<li><b>POST /api/sales-orders:</b> Add a new sales order</li>
-<li><b>GET /api/sales-orders:</b> List all sales orders</li>
+<li><b>POST /api/salesOrders/add :</b> Add a new sales order</li>
+<li><b>GET /api/sales-orders/all :</b> List all sales orders</li>
 
 ## Request Examples
 #### Create a new prudcuts
