@@ -54,3 +54,6 @@ PATCH /api/products/1/5<br>
     }<br>
   ]<br>
 }<br>
+
+## ER-Diagram
+ <img src="https://i.ibb.co/JKJ0s0m/Er-Diagram-Sample-Springboot-app.png" alt="Er-Diagram-Sample-Springboot-app" border="0">
