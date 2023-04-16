@@ -12,6 +12,7 @@
 <li><b>POST /api/products:</b> Create a new product</li>
 <li><b>PATCH /api/products/{id}{qty}:</b> Update the stock quantity of a product</li>
 <li><b>GET /api/products:</b> List all products</li>
+
 ### Sales Orders
 <li><b>POST /api/sales-orders:</b> Add a new sales order</li>
 <li><b>GET /api/sales-orders:</b> List all sales orders</li>
@@ -42,7 +43,7 @@ PATCH /api/products/1/5<br>
       "orderDet_Id": 0,<br>
       "product": {<br>
         "productId": 0,<br>
-        "description": "string",<br><br>
+        "description": "string",<br>
         "brandName": "string",<br>
         "salePrice": 0,<br>
         "stockQuantity": 0,<br>
